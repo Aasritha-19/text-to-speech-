@@ -1,0 +1,67 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+.timer-container{
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px black;
+}
+.timer-display{
+    font-size: 5 rem;
+    margin: 20px 0;
+    color: #333;
+}
+.timer-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1 rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#startBtn{
+    background-color: #4CAF50;
+    color: white;
+}
+#pausebtn{
+    background-color: #4CAF50;
+    color: white;
+    display: none;
+}
+#resumeBtn{
+    background-color: #4CAF50;
+    color: white;
+    display: none;
+}
+#resetBtn{
+    background-color: #4CAF50;
+    color: white;
+}
+button:hover{
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+.timer-title{
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+.timer-mode{
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
